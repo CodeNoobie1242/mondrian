@@ -1,0 +1,96 @@
+.container{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 100px);
+    grid-auto-rows: 100px;
+    grid-gap: 10px;
+    min-height: 900px;
+}
+.item1{
+    background-color: chocolate;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+}
+.item2{
+    background-color: green;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+.item3{
+     background-color: peachpuff;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    grid-column: span 2;
+}
+.item4{
+     background-color: green;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    grid-row: span 3;
+}
+.item5{
+     background-color: blue;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    grid-column: 3 / span 2;
+    grid-row: 2 / span 2;
+}
+.item6{
+     background-color: red;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    grid-column: span 2;
+}
+.item7{
+     background-color: peachpuff;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+.item8{
+     background-color: chocolate;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    grid-row: span 2;
+}
+.item9{
+     background-color: goldenrod;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    grid-row: span 2;
+}
+.item10{
+     background-color: blue;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.item11{
+     background-color: red;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    grid-row: span 2;
+}
+.item12{
+     background-color: goldenrod;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
